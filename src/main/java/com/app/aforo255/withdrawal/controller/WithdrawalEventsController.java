@@ -14,8 +14,8 @@ import com.app.aforo255.withdrawal.service.ITransactionService;
 import com.fasterxml.jackson.core.JsonProcessingException;
 
 import org.slf4j.*;
-@RestController
 
+@RestController
 public class WithdrawalEventsController {
 
 	private Logger log = LoggerFactory.getLogger(WithdrawalEventsController.class);
